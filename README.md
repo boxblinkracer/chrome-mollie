@@ -21,9 +21,6 @@ If you want to install the extension manually, follow these steps:
 6. Select the source code folder
 7. Done! You should see the extension in your list.
 
-<p align="center">
-   <img src="/.github/assets/manual_installation.png">
-</p>
 
 ## Usage
 
