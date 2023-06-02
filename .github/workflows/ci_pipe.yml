@@ -55,16 +55,16 @@ jobs:
       - name: Extract ZIP file for artifact
         shell: bash
         run: |
-          unzip ~/.build/mollie-chrome-extension.zip -d ~/.build/extension
+          unzip ./.build/mollie-chrome-extension.zip -d ./.build/extension
 
       - name: Store ZIP file in Github
         uses: actions/upload-artifact@v2
         with:
           name: mollie-chrome-extension
           retention-days: 4
-          path: ~/.build/extension
+          path: ./.build/extension
 
       - name: Delete TMP files
         shell: bash
         run: |
-          rm -rf ~/.build/extension
+          rm -rf ./.build/extension
