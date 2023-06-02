@@ -15,7 +15,7 @@ In the future, there might be more features added to this extension. Just let us
 
 ### Chrome Web Store
 
-The extension is available in the [Chrome Web Store](https://chrome.google.com/webstore/detail/mollie-payments/ibjgjgjgjgjgjgjgjgjgjgjgjgjgjgj).
+The extension is available in the [Chrome Web Store](https://chrome.google.com/webstore/detail/kkimekaackelhgbnjofamoojpohigmca).
 
 ### Manual Installation
 
