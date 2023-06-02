@@ -3,9 +3,6 @@
 This extension for Chrome allows you to easily copy the Mollie test cards into your clipboard.
 Finally no more googling for the website ;)
 
-Just use the context menu to access all your cards.
-Simply click on it, and it's ready to be pasted wherever you need it.
-
 ## Installation
 
 ### Chrome Web Store
@@ -26,4 +23,13 @@ If you want to install the extension manually, follow these steps:
 
 <p align="center">
    <img src="/.github/assets/manual_installation.png">
+</p>
+
+## Usage
+
+Just use the context menu to access all your cards.
+Simply click on it, and it's ready to be pasted wherever you need it.
+
+<p align="center">
+   <img src="/.github/assets/preview.png">
 </p>
