@@ -3,6 +3,11 @@
 ![Build Status](https://github.com/boxblinkracer/chrome-mollie/actions/workflows/ci_pipe.yml/badge.svg) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/boxblinkracer/chrome-mollie)  
 
 
+<p align="center">
+   <img src="/.github/assets/header.jpg">
+</p>
+
+
 This extension for Chrome allows you to easily copy the Mollie test cards into your clipboard.
 Finally no more googling for the website ;)
 
