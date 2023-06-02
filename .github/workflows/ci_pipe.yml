@@ -38,3 +38,33 @@ jobs:
 
       - name: Run Prettier
         run: make prettier -B
+
+  build:
+    name: Build ZIP File
+    runs-on: ubuntu-latest
+    needs: [eslint, prettier]
+    steps:
+
+      - name: Clone Code
+        uses: actions/checkout@v3
+
+      - name: Build ZIP File
+        run: |
+          make build -B
+
+      - name: Extract ZIP file for artifact
+        shell: bash
+        run: |
+          unzip ~/.build/mollie-chrome-extension.zip -d ~/.build/extension
+
+      - name: Store ZIP file in Github
+        uses: actions/upload-artifact@v2
+        with:
+          name: mollie-chrome-extension
+          retention-days: 4
+          path: ~/.build/extension
+
+      - name: Delete TMP files
+        shell: bash
+        run: |
+          rm -rf ~/.build/extension
