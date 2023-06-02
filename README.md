@@ -1,15 +1,13 @@
-# Mollie Payments (Chrome Extension)
-
-![Build Status](https://github.com/boxblinkracer/chrome-mollie/actions/workflows/ci_pipe.yml/badge.svg) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/boxblinkracer/chrome-mollie)  
-
-
 <p align="center">
    <img src="/.github/assets/header.jpg">
 </p>
 
+<h1 align="center">Mollie Payments (Chrome Extension)</h1>
 
-This extension for Chrome allows you to easily copy the Mollie test cards into your clipboard.
-Finally no more googling for the website ;)
+![Build Status](https://github.com/boxblinkracer/chrome-mollie/actions/workflows/ci_pipe.yml/badge.svg) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/boxblinkracer/chrome-mollie)
+
+This extension for Chrome allows you to access the Mollie test cards directly from your browser.
+No more searching online for the correct page to get the card numbers when working with Mollie ((www.mollie.com).
 
 ## Installation
 
@@ -28,7 +26,6 @@ If you want to install the extension manually, follow these steps:
 5. Click on "Load unpacked extension"
 6. Select the source code folder
 7. Done! You should see the extension in your list.
-
 
 ## Usage
 
