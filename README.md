@@ -1,0 +1,29 @@
+# Mollie Payments (Chrome Extension)
+
+This extension for Chrome allows you to easily copy the Mollie test cards into your clipboard.
+Finally no more googling for the website ;)
+
+Just use the context menu to access all your cards.
+Simply click on it, and it's ready to be pasted wherever you need it.
+
+## Installation
+
+### Chrome Web Store
+
+The extension is available in the [Chrome Web Store](https://chrome.google.com/webstore/detail/mollie-payments/ibjgjgjgjgjgjgjgjgjgjgjgjgjgjgj).
+
+### Manual Installation
+
+If you want to install the extension manually, follow these steps:
+
+1. Download the latest release or (dev-master) source code from Github.
+2. Unzip the downloaded file so you have the plain source code.
+3. Open the Chrome Extension page (`chrome://extensions/`)
+4. Enable the developer mode
+5. Click on "Load unpacked extension"
+6. Select the source code folder
+7. Done! You should see the extension in your list.
+
+<p align="center">
+   <img src="/.github/assets/manual_installation.png">
+</p>
